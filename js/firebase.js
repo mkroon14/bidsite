@@ -3,13 +3,12 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-auth
 import { getFirestore } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCAYOYDuMKGGjTSJL5uDzG5hjQ6y_vYPiI",
-  authDomain: "auction-website-b12fc.firebaseapp.com",
-  databaseURL: "https://auction-website-b12fc.firebaseio.com",
-  projectId: "auction-website-b12fc",
-  storageBucket: "auction-website-b12fc.appspot.com",
-  messagingSenderId: "791747024664",
-  appId: "1:791747024664:web:215a222a81c6d0c2aeb06d",
+  apiKey: "AIzaSyDAa-kNLrb4Jfsu_CuVIYQN0HV8LEQEuds",
+  authDomain: "vita-auction.firebaseapp.com",
+  projectId: "vita-auction",
+  storageBucket: "vita-auction.appspot.com",
+  messagingSenderId: "1071953973739",
+  appId: "1:1071953973739:web:32e0b3e4d2909d9f0c09ae"
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
